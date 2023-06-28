@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-07"
+version = "0.1.0"
+description = ""
+authors = ["darkfever <beket100796@bk.ru>"]
+readme = "README.md"
+packages = [{include = "homework_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.2"
+django-debug-toolbar = "^4.1.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
